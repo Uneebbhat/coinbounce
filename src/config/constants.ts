@@ -1,0 +1,19 @@
+const MONGODB_URI = process.env.MONGODB_CONNECTION_STRING as string;
+const CLOUD_NAME = process.env.CLOUDINARY_CLOUD_NAME;
+const CLOUD_API_KEY = process.env.CLOUDINARY_CLOUD_API_KEY;
+const CLOUD_API_SECRET = process.env.CLOUDINARY_CLOUD_API_SECRET;
+const DEFAULT_IMG = process.env.DEFAULT_USER_IMAGE as string;
+const NEWS_API_KEY = process.env.NEWS_API_KEY;
+const NEWS_URL = process.env.NEWS_BASE_URL;
+const CRYPTO_URL = process.env.CRYPTO_BASE_URL;
+
+export {
+  MONGODB_URI,
+  CLOUD_NAME,
+  CLOUD_API_KEY,
+  CLOUD_API_SECRET,
+  DEFAULT_IMG,
+  NEWS_API_KEY,
+  NEWS_URL,
+  CRYPTO_URL,
+};
